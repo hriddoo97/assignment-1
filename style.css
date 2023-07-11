@@ -1,0 +1,287 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px;
+}
+
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px 200px;
+  justify-content: space-between;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0px;
+  color: #696363;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.logo2 {
+  color: #e55473;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.btn-primary {
+  list-style: none;
+  padding: 15px 30px;
+  border: none;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #e090a1;
+  transition-duration: 1s;
+}
+
+.shop-now > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+/* nav end */
+/* cover start */
+.cover {
+  display: flex;
+  align-items: end;
+  gap: 90px;
+  justify-content: space-between;
+  padding: 0px 200px;
+}
+
+.cover-title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.cover-latter {
+  padding: 80px 0px;
+  max-width: 600px;
+}
+
+.cover-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.cover-pic-sec {
+  display: flex;
+  justify-content: right;
+}
+.cover-pic {
+  width: 450px;
+}
+
+.our-featured-item {
+  padding: 80px 240px 128px 240px;
+}
+.item-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.item-description {
+  color: rgba(102, 98, 98, 0.656);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.our-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.our-item1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 468px;
+  height: 538px;
+}
+
+.our-item1-pic {
+  width: 250px;
+  padding-top: 192px;
+  padding-left: 30px;
+}
+.our-item2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 468px;
+  height: 538px;
+}
+.our-item2-pic {
+  width: 300px;
+  padding-top: 210px;
+  padding-left: 30px;
+}
+.our-item3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 468px;
+  height: 538px;
+}
+.our-item3-pic {
+  width: 250px;
+  padding-top: 162px;
+  padding-left: 30px;
+}
+
+.our-items-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: underline;
+}
+/* our featured item part end */
+/* hot deal part start*/
+.hot-deal-sec {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  text-align: center;
+  gap: 30px;
+  height: auto;
+}
+
+.hot-deal-sign-sec {
+  padding-left: 100px;
+}
+
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.off {
+  color: #e55473;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hot-deal-pic {
+  width: 230px;
+  padding: 0px 0px;
+}
+/* hot deal part end */
+
+/* instagram part start */
+.instagram-sec {
+  padding: 80px 200px 128px 200px;
+  text-align: center;
+}
+.insta-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.insta-photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  /* padding: 30px 70px; */
+}
+
+.insta-pic {
+  width: 250px;
+}
+/* instagram part end */
+
+/* subscribe part start */
+.subscribe {
+  text-align: center;
+  background-image: url(./asset/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: 50px;
+  background-size: auto;
+  padding: 50px 200px;
+  margin-bottom: 50px;
+}
+
+.subscribe-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.shop{
+  color:#fff;
+}
+
+.sub-benifit {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.your-email {
+  padding-left: 20px;
+  width: 700px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+}
+/* subscribe part end */
+
+/* footer part start */
+.footer{
+  background-color: #85b87c92;
+  text-align: center;
+  padding: 100px 0px;
+}
+.footer-title{
+  color: #E55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}
+/* footer part end */
