@@ -158,6 +158,33 @@ nav > a {
   text-decoration: underline;
 }
 /* our featured item part end */
+/* service sec start */
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2727270d;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  margin-inline: 100px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  text-align: center;
+  font-size: 18px;
+  color: #272727cc;
+}
+
+.icon-container p {
+  margin-bottom: 0px;
+}
+.icon-container a {
+  text-decoration: none;
+}
+/* service sec end */
 /* hot deal part start*/
 .hot-deal-sec {
   border-radius: 8px;
@@ -242,8 +269,8 @@ nav > a {
   font-size: 40px;
   font-weight: 800;
 }
-.shop{
-  color:#fff;
+.shop {
+  color: #fff;
 }
 
 .sub-benifit {
@@ -263,32 +290,32 @@ nav > a {
 /* subscribe part end */
 
 /* footer part start */
-.footer{
+.footer {
   background-color: #85b87c92;
   text-align: center;
   padding: 100px 0px;
 }
-.footer-title{
-  color: #E55473;
+.footer-title {
+  color: #e55473;
   font-size: 48px;
   font-weight: 800;
 }
-.footer-description{
-  color: rgba(255, 255, 255, 0.90);
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   font-weight: 400;
 }
 
-.copyright{
-  color: rgba(255, 255, 255, 0.40);
-font-size: 16px;
-font-weight: 400;
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.social-media{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-padding: 0px 650px;
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 650px;
 }
 /* footer part end */
