@@ -19,21 +19,6 @@ nav > a {
   text-decoration: none;
 }
 
-.logo {
-  margin: 0px;
-  color: #696363;
-  font-size: 45px;
-  font-weight: 800;
-}
-
-.logo2 {
-  color: #e55473;
-}
-
-.logo-link {
-  text-decoration: none;
-}
-
 .btn-primary {
   list-style: none;
   padding: 15px 30px;
@@ -292,6 +277,51 @@ nav > a {
   background: #fff;
 }
 /* subscribe part end */
+
+/* ----- */
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dbd3d360;
+  padding: 30px 100px;
+  gap: 25px;
+}
+.touch-form {
+}
+.touch-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.touch-description {
+  color: rgba(98, 95, 95, 0.86);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.touch-form input, textarea{
+  margin-bottom: 20px;
+  padding: 18px 30px;
+  border: 0;
+}
+
+.touch{
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.message{
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  background-color: #ffffff;
+}
+/* ----- */
 
 /* footer part start */
 .footer {
